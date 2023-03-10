@@ -8,7 +8,7 @@ const homeConfig = {
 
     greeting:
         <h1 className="heading">
-            Hi! I'm <strong className="main-name"> Flors Ribalta</strong>
+            Hi! I'm <strong className="main-name"> Flors Ribalta </strong>
         </h1>,
     titles: [
         "Data Scientist",
@@ -29,9 +29,15 @@ const homeConfig = {
             id: "work-5",
             title: "Product Data Analyst - Next Best Action (Personalization)",
             company: "Vistaprint",
-            description: "Build AutoML models and make them available to non-technical " +
-                "users from a graphical interface.",
-            date: "2021-present",
+            description: <p>  
+                    <ul><li>Model feature creation that helped the model identify 5 more targets of people with uplift.</li>
+                    <li>Analyses and definition of the test plan to evaluate the model performance.</li>
+                    <li>Long-term financial return of the models.</li>
+                    <li>Using models to predict the probability to become our higher performer group of customers and understand what are the attributes that make them be high performer.</li>
+                    <li>Design of all the reporting.</li>
+                    <li>Story telling to the developers and also business people to help them understand our models. (from technical to business stakeholders).</li>
+                    <li>Scrapping campaigns to retrieve metadata to help the model understand the inputs to choose from.</li></ul> </p> ,
+            date: "Jul 2022 — Present",
             icon: <DiCodeigniter/>,
             tags: ["ml", "automl", "python", "docker", "redshift", "superset"]
         },
@@ -39,8 +45,13 @@ const homeConfig = {
             id: "work-4",
             title: "Product Data Analyst - Product Recommendations & Site Search",
             company: "Vistaprint",
-            description: " ",
-            date: "2021-present",
+            description: <p>  
+                    <ul><li>Refactoring of all code into DBT pipeline.</li>
+                    <li>Design and Execution of Site Search Experiment Plan & Tracking Plan Creation.</li>
+                    <li>Working with the model to get more accurate tags to help the search be more accurate.</li>
+                    <li>Creating all the reporting structure with the events the web throws. Event management and organizationwith the developers. (segment event tracker)</li>
+                    <li>Product Recommendations home page with all the different dashboards to monitor product recommendations algorithms.</li></ul> </p> ,
+            date: "Aug 2021 — Jul 2022",
             icon: <DiCodeigniter/>,
             tags: ["ml", "automl", "python", "docker", "redshift", "superset"]
         },
@@ -48,8 +59,7 @@ const homeConfig = {
             id: "work-3",
             title: "Product Data Analyst - Business Performance Monitoring",
             company: "Vistaprint",
-            description: "Creation of the companies weekly reporting deck containing all the metrics of the business using Looker " +
-                "and modelling anomaly detection.",
+            description: "",
             date: "2021-present",
             icon: <DiCodeigniter/>,
             tags: ["ml", "automl", "python", "docker", "redshift", "superset"]
@@ -58,11 +68,11 @@ const homeConfig = {
             id: "work-2",
             title: "Analyst - 3D Printing Services",
             company: "HP Inc",
-            description: 
-                "Impact and Optimisation of operations in cost of the P&L using <br>" +
-                "predictive modelling, " +
-                "time series and " +
-                "generating BI dashboards for business stakeholders worlwide.",
+            description: <p>  
+                Impact and Optimisation of operations in cost of the P&L using:
+                    <ul><li>Predictive modelling</li>
+                    <li>Time Series to control shipments and parts sent to repairs.</li>
+                    <li>Reporting generation and analytics for business partners from all over the world.</li></ul> </p> ,
             date: "Jun 2018 — Jun 2020",
             icon: <FaMobileAlt/>,
             tags: ["ml", "airflow", "python", "docker", "snowflake", "postgres", "azure"]
